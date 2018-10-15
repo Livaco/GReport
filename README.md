@@ -16,8 +16,8 @@ GReport is a easy to use reporting system that makes administrators lives easier
 [Video showing example on how to use.](https://www.youtube.com/watch?v=7hmCD3JwYHw&feature=youtu.be)
 
 # Support
-﻿If you need any support you can make a support ticket on my [website](https://livacoweb.000webhostapp.com/index.php).
+If you need any support you can make a support ticket on my [website](https://livacoweb.000webhostapp.com/index.php).
 
-Credits
-Threebow - TDLib
+# Credits
+Threebow - TDLib.
 Owain - Sexy human being as always.
