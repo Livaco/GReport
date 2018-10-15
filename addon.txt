@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"				"GReport"
+	"version"			"1.0"
+	"up_date"			"09/09/18"
+	"author_name"		"Livaco"
+	"author_email"		"livacobussness@outlook.com"
+	"author_url"		"https://garrysmods.org/profile/76561198121018313"
+	"info"				"A reporting system for Garry's Mod."
+	"override"			"0"
+}
