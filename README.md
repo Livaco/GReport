@@ -19,5 +19,5 @@ GReport is a easy to use reporting system that makes administrators lives easier
 If you need any support you can make a support ticket on my [website](https://livacoweb.000webhostapp.com/index.php).
 
 # Credits
-Threebow - TDLib.
-Owain - Sexy human being as always.
+- Threebow - TDLib.
+- Owain - Sexy human being as always.
