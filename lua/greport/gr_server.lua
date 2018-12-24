@@ -15,6 +15,18 @@ local function conprint(msg)
 
 end
 
+local RanCheck = false
+hook.Add("PlayerConnect", "greport_checkversion", function()
+  if(RanCheck == true) then return end
+  conprint("Running version check!")
+  http.Post("http://livacoweb.000webhostapp.com/libaries/versions/greport.php", {RunningVar = "1.1"}, function(result)
+    conprint(result)
+  end, function(fail)
+    conprint(fail)
+  end)
+  RanCheck = true
+end)
+
 net.Receive("gr_requestadmin", function(len, ply)
 
   if(table.HasValue(GReport.Config.StaffGroups, ply:GetUserGroup())) then
@@ -139,8 +151,16 @@ net.Receive("gr_receivereport", function(len, ply)
   local nigger = net.ReadString()
 
   table.insert(GReport.Reports, {
-    reporter = ply,
-    reported = suspect,
+    reporter =
+    {
+      name = ply:Nick(),
+      sid = ply:SteamID64()
+    },
+    reported =
+    {
+      name = suspect:Nick(),
+      sid = suspect:SteamID64()
+    },
     reason = reason,
     description = nigger
   })
