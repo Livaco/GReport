@@ -620,15 +620,10 @@ function MoreBox(reporter, reported, reason, desc)
 	Descriptione.Paint = function(s, w, h)
 	end
 	Descriptione.PerformLayout = function()
-
 		Descriptione:SetFGColor(Color(255, 255, 255))
-
 	end
 	Descriptione:AppendText(desc)
 	Descriptione.Paint = function(s, w, h)
-
 		draw.RoundedBox(0, 0, 0, w, h, Color(0, 0, 0, 200))
-
 	end
-
 end

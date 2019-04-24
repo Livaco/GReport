@@ -30,4 +30,5 @@ Thank you.
 -- The reasons for making a report, seperate these using commas.
 GReport.Config.Reasons = {"RDM", "CDM", "Bug Abuse", "Other"}
 
--- Config done. Well done!
+-- If all reports should be stored permanently (using MySQLite).
+GReport.Config.SQLStorage = true 

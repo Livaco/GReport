@@ -1,2 +1,2 @@
-- Fixed a bug with the addon where if the player leaved after a report was made it would error (Cheers to Owain for telling me about Panel:SetSteamID() and Adrian for helping test).
-- Added Version Checking.
+- Added the option to store reports permanently.
+- Fixed the terrible spacing and awful var names I did (exept from the vgui screw going through that).
